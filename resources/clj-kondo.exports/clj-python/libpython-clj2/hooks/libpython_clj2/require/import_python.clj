@@ -1,8 +1,8 @@
-(ns hooks.libpython-clj.require.import-python
-  "The import-python macro from libpython-clj/require.clj"
+(ns hooks.libpython-clj2.require.import-python
+  "The import-python macro from libpython-clj2/require.clj"
   (:require [clj-kondo.hooks-api :as api]))
 
-;; from: libpython-clj/require.clj
+;; from: libpython-clj2/require.clj
 
 ;; (defn import-python
 ;;   "Loads python, python.list, python.dict, python.set, python.tuple,
@@ -42,7 +42,7 @@
         (api/token-node alias-sym)])])]))
 
 (defn import-python
-  "Macro in libpython-clj/require.clj.
+  "Macro in libpython-clj2/require.clj.
 
   Example call:
 
